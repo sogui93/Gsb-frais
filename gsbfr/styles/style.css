@@ -1,0 +1,90 @@
+.header {
+    margin-top: 10px;
+  }
+  
+  /** Changement de couleur du titre h2 Gestion des frais **/
+  
+  /**Changement couleur des liens de navigation (menu) des que l'utilisateur est un comptable **/
+  .comptable a {
+    color: orange !important;
+  }
+  /** Changement couleur du panel navigation des que l'utilisateur est un comptable **/
+  .comptable .panel-heading {
+    background-color: orange !important;
+    color: white;
+  }
+  
+  .comptable .panel-primary {
+    border-color: orange;
+  }
+  
+  
+  .comptable .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: orange;
+    border-color: orange;
+  }
+  
+  
+  .comptable
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color:orange;
+  }
+  
+  .sogui
+  {
+    text-align: center;
+
+  }
+  
+  
+.sogui a 
+{
+  padding-left: 280px;
+  text-align: center;
+  color: #fff !important;
+
+}
+  
+  
+  .form-groupe{
+    margin-top: 20px;
+    display: flex;
+  }
+  .form-groupe select{
+    width: 200px;
+    margin-right: 20px;
+  }
+  .form-groupe #visiteur{
+    margin-left: 10px;
+  }
+  .row .frais{
+   color: orange;
+  }
+  
+  
+  .compta .panel-info > .panel-heading
+  {
+    background-color: orange;
+    border: solid orange;
+  }
+  
+  
+  
+  .compta .panel-info {
+    border-color: orange;
+  }
+  
+  .hide {
+    display: none !important;
+  }
+  .show {
+    display: block !important;
+  }
+
+  .sogui
+{
+  text-align: center;
+}
